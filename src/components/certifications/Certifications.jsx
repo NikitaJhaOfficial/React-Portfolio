@@ -4,7 +4,7 @@ import CER1 from '../../assets/certi1.png'
 import CER2 from '../../assets/certi2.png'
 import CER3 from '../../assets/certi3.png'
 import CER4 from '../../assets/certi4.png'
-import CER5 from '../../assets/certi5.png'
+import CER5 from '../../assets/certi7.png'
 import CER6 from '../../assets/certi6.png'
 
 const certifications = () => {
@@ -13,6 +13,16 @@ const certifications = () => {
       <h2>My Certifications</h2>
 
       <div className='container certification__container'>
+
+      <article className='certification__item'>
+          <div className='certification__item-image'></div>
+          <img src={CER5} alt=''/>
+          <h3> Java Full Stack Development </h3>
+          <div className='certification__item-cta'>
+          <a href='https://drive.google.com/file/d/1kkmF-8jOrZak7qQrKmn-KenGb1JT1L59/view?usp=sharing' className='btn btn-primary' target='_blank'>Link to certificate</a>
+          </div>
+        </article>
+
         <article className='certification__item'>
           <div className='certification__item-image'></div>
           <img src={CER1} alt=''/>
@@ -46,15 +56,6 @@ const certifications = () => {
           <h3>Technical support system by Google</h3>
           <div className='certification__item-cta'>
           <a href='https://drive.google.com/file/d/1frzKmtbhO-JLhoIigNcy3PvMNEA3V6zh/view?usp=drive_link' className='btn btn-primary' target='_blank'>Link to certificate</a>
-          </div>
-        </article>
-
-        <article className='certification__item'>
-          <div className='certification__item-image'></div>
-          <img src={CER5} alt=''/>
-          <h3>Python basic skills</h3>
-          <div className='certification__item-cta'>
-          <a href='https://drive.google.com/file/d/1VDLwfRy4WR-jh8RHM3dHTUNjVxyWZq66/view?usp=drive_link' className='btn btn-primary' target='_blank'>Link to certificate</a>
           </div>
         </article>
         

@@ -4,10 +4,13 @@ import {SiHtml5} from 'react-icons/si'
 import {BsFiletypeCss} from 'react-icons/bs'
 import {IoLogoJavascript} from 'react-icons/io'
 import {RiReactjsLine} from 'react-icons/ri'
+import { RiAngularjsFill } from 'react-icons/ri'
 import {BsFillBootstrapFill} from 'react-icons/bs'
 import {BiLogoSpringBoot} from 'react-icons/bi'
 import {SiEnterprisedb} from 'react-icons/si'
 import {FaJava} from 'react-icons/fa'
+import { SiHibernate } from 'react-icons/si'
+import { SiMysql } from 'react-icons/si'
 const Experience = () => {
   return (
     <section id='experience'>
@@ -43,6 +46,12 @@ const Experience = () => {
                </div>
             </article>
             <article className='experience__details'>
+               <RiAngularjsFill className='experience__details-icon'/>
+               <div>
+               <h4>Angular</h4>
+               </div>
+            </article>
+            <article className='experience__details'>
                <BsFillBootstrapFill className='experience__details-icon'/>
                <div>
                <h4>Bootstrap</h4>
@@ -71,6 +80,18 @@ const Experience = () => {
                <FaJava className='experience__details-icon'/>
                <div>
                <h4>Java</h4>
+               </div>
+            </article>
+            <article className='experience__details'>
+               <SiHibernate className='experience__details-icon'/>
+               <div>
+               <h4>Hibernate</h4>
+               </div>
+            </article>
+            <article className='experience__details'>
+               <SiMysql className='experience__details-icon'/>
+               <div>
+               <h4>MySQL</h4>
                </div>
             </article>
           </div>
