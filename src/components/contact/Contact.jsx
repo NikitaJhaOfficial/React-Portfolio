@@ -42,12 +42,12 @@ const Contact = () => {
             <a href='https://www.linkedin.com/in/nikita-jha-182155229/' target='_blank'>Send a message</a>
           </article>
 
-          <article className="contact__option">
+          {/* <article className="contact__option">
             <AiOutlineInstagram/>
             <h4>Instagram</h4>
             <h5>n.i.k.i.t.a.j.h.a</h5>
             <a href='https://www.instagram.com/n.i.k.i.t.a.j.h.a' target='_blank'>Send a message</a>
-          </article>
+          </article> */}
         </div>
 
         {/*       End of contact options      */}

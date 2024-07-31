@@ -1,33 +1,57 @@
+/* nav.css */
 nav {
-    background: rgb(0, 0, 0, 0.3);
-    width: max-content;
-    display: block;
-    padding: 0.7rem 1.7rem;
-    z-index: 2;
-    position: fixed;
-    left: 50%;
-    transform: translateX(-50%);
-    bottom: 2rem;
+    background: hwb(255 28% 6% / 0.959);
+    width: 100%;
     display: flex;
-    gap: 0.8rem;
-    border-radius: 3rem;
+    justify-content: center;
+    padding: 0.7rem 1.7rem;
+    z-index: 1000;
+    position: fixed;
+    top: 0;
+    left: 0;
     backdrop-filter: blur(15px);
 }
 
 nav a {
     background: transparent;
     padding: 0.9rem;
+    margin: 0 0.8rem;
     border-radius: 50%;
     display: flex;
-    color: var(--color--light);
+    align-items: center; /* Align items center */
+    color: var(--color-light);
     font-size: 1.1rem;
+    transition: background 0.3s;
+    text-decoration: none; /* Remove underline from links */
+}
+
+nav a span {
+    margin-left: 0.5rem; /* Space between icon and text */
+    font-size: 0.9rem; /* Adjust font size for text */
+    font-weight: 500; /* Adjust font weight */
 }
 
 nav a:hover {
-    background: rgba(0, 0, 0, 0.3);
+    background: #9940e3e0;
 }
 
 nav a.active {
     background: var(--color-primary);
     color: var(--color-bg);
+}
+
+/* Media Queries */
+@media screen and (max-width: 768px) {
+    nav {
+        padding: 0.5rem;
+    }
+    
+    nav a {
+        padding: 0.7rem;
+        margin: 0 0.5rem;
+    }
+
+    nav a span {
+        display: none; /* Hide text on smaller screens */
+    }
 }

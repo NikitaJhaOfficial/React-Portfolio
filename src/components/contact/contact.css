@@ -4,6 +4,21 @@
     grid-template-columns: 30% 58%;
     gap: 12%;
 }
+/* Styling for the section headings */
+section#contact h5 {
+    font-size: 1.2rem; /* Adjust size as needed */
+    color: blueviolet; /* You can adjust the color if needed */
+    font-weight: 600; /* Makes the text slightly bolder */
+    margin-bottom: 0.5rem; /* Adds some space below the heading */
+}
+
+section#contact h2 {
+    font-size: 2.5rem; /* Adjust size as needed */
+    font-weight: 700; /* Makes the text bolder */
+    color: var(--color-white); /* Or any color that suits your theme */
+    margin-bottom: 1.5rem; /* Adds space below the heading */
+}
+
 
 .contact__options {
     display: flex;

@@ -40,15 +40,7 @@ const About = () => {
              </div>
 
              <p>
-             A driven Computer Science Engineer, deeply passionate about software development, showcasing proficiency
-              across a spectrum of coding languages including HTML, JavaScript, CSS, Java, C++, J2EE, and Spring.Armed 
-              with a profound understanding of the (React.js, Node.js),I am committed to harnessing my technical acumen
-              and inventive problem-solving skills to make impactful contributions within the software realm.I thrive in 
-              team-oriented settings, thriving on the complexities of demanding projects, and consistently strive for 
-              excellence in collaboration.During my leisure hours, I find immense joy in the art of painting and the rhythm
-              of dancing, allowing me to express my creativity and passion. I also make it a point to stay well-informed 
-              about the latest trends in the industry. Furthermore, my love for sports keeps me active and inspired, adding 
-              a dynamic dimension to my life outside of work. 
+             A driven Computer Science Engineer passionate about software development, proficient in HTML, JavaScript, CSS, Java, C++, J2EE, and Spring. With expertise in full stack development, I excel in team settings, tackling complex projects with innovative problem-solving. Outside of work, I express my creativity through painting and dancing, stay updated on industry trends, and stay active with sports.
              </p>
 
              <a href="#contact" className="btn btn-primary">Let's Talk</a>

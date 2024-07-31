@@ -62,7 +62,7 @@ const certifications = () => {
         <article className='certification__item'>
           <div className='certification__item-image'></div>
           <img src={CER6} alt=''/>
-          <h3>Red Hat Certification</h3>
+          <h3>Red Hat Certification course</h3>
           <div className='certification__item-cta'>
           <a href='https://drive.google.com/file/d/12hF1Bpf6nqT5Olees0teRhEFBswH-cT1/view?usp=drive_link' className='btn btn-primary' target='_blank'>Link to certificate</a>
           </div>
