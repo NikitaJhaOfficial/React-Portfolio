@@ -4,6 +4,7 @@
     grid-template-columns: repeat(3, 1fr);
     gap: 2.5rem;
 }
+
 /* Styling for the section heading */
 section#portfolio h2 {
     font-size: 3rem; /* Adjust size as needed for prominence */
@@ -14,7 +15,6 @@ section#portfolio h2 {
     text-transform: uppercase; /* Makes the text uppercase */
     letter-spacing: 1.5px; /* Adds spacing between letters */
 }
-
 
 .portfolio__item {
     background: var(--color-bg-varient);
@@ -56,6 +56,13 @@ section#portfolio h2 {
     margin-bottom: 1rem;
 }
 
+/* Add styling for the Tech Stack section */
+.portfolio__item p:nth-of-type(2) {
+    font-size: 1.2rem; /* Larger font size for Tech Stack */
+    font-weight: bold; /* Make the Tech Stack text bold */
+    /*color: var(--color-primary); /* Optional: Change color if needed */
+}
+
 /* =================MEDIA QUERIES (MEDIUM DEVICES)================ */
 @media screen and (max-width: 1024px) {
     .portfolio__container {
@@ -63,60 +70,3 @@ section#portfolio h2 {
         gap: 1.2rem;
     }
 }
-
-/* =================MEDIA QUERIES (SMALL DEVICES)================ */
-@media screen and (max-width: 600px) {
-    .portfolio__container {
-        grid-template-columns: 1fr;
-        gap: 1rem;
-    }
-}
-
-/* .portfolio__container {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 2.5rem;
-}
-
-.portfolio__item {
-    background: var(--color-bg-varient);
-    padding: 1.2rem;
-    border-radius: 2rem;
-    border: 1px solid transparent;
-    transition: var(--transition);
-}
-
-.portfolio__item:hover {
-    border-color: var(--color-primary-varient);
-    background: transparent;
-}
-
-.portfolio__item-image {
-    border-radius: 1.5rem;
-    overflow: hidden;
-}
-
-.portfolio__item h3 {
-    margin: 1.2rem 0 2rem;
-}
-
-.portfolio__item-cta {
-    display: flex;
-    gap: 1rem;
-    margin-bottom: 1rem;
-} */
-/* =================MEDIA QUERIES (MEDIUM DEVICES)================ */
-/* @media screen and (max-width: 1024px) {
-    .portfolio__container {
-        grid-template-columns: 1fr 1fr;
-        gap: 1.2rem;
-    }
-} */
-
-/* =================MEDIA QUERIES (SMALL DEVICES)================ */
-/* @media screen and (max-width: 600px) {
-    .portfolio__container{
-        grid-template-columns: 1fr;
-        gap: 1rem;
-    }
-} */

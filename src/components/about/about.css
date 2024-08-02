@@ -6,7 +6,7 @@ section#about {
 
 /* Main heading (h2) styling */
 section#about h2 {
-    font-size: 3rem; /* Larger font size */
+    font-size: 4rem; /* Larger font size */
     font-weight: 700; /* Bold weight */
     font-family: 'Arial', sans-serif; /* Font style */
     margin-bottom: 1rem;
@@ -15,11 +15,10 @@ section#about h2 {
 
 /* Subheading (h5) styling */
 section#about h5 {
-    font-size: 1.2rem; /* Adjust font size */
+    font-size: 2rem; /* Adjust font size */
     font-weight: 400; /* Normal weight */
     font-family: 'Arial', sans-serif; /* Font style */
-    color: blueviolet; /* Change color if needed */
-    
+    color: rgb(61, 55, 248); /* Change color if needed */
 }
 
 /* Container for About section */
@@ -83,14 +82,14 @@ section#about h5 {
 
 /* Card heading styling */
 .about__card h5 {
-    font-size: 1.2rem; /* Larger font size for headings */
+    font-size: 1.8rem; /* Larger font size for headings */
     font-weight: 600; /* Medium bold weight */
     margin: 1rem 0;
 }
 
 /* Card small text styling */
 .about__card small {
-    font-size: 1rem; /* Larger font size for small text */
+    font-size: 1.2rem; /* Larger font size for small text */
     color: var(--color-light);
 }
 

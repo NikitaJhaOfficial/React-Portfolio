@@ -7,7 +7,7 @@
 /* Styling for the section headings */
 section#contact h5 {
     font-size: 1.2rem; /* Adjust size as needed */
-    color: blueviolet; /* You can adjust the color if needed */
+    color: rgb(57, 72, 242); /* You can adjust the color if needed */
     font-weight: 600; /* Makes the text slightly bolder */
     margin-bottom: 0.5rem; /* Adds some space below the heading */
 }
