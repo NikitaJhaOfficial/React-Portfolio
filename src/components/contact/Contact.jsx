@@ -38,8 +38,8 @@ const Contact = () => {
         <article className="contact__option">
             <GrLinkedin/>
             <h4>LinkedIn</h4>
-            <h5>nikita-jha-182155229/</h5>
-            <a href='https://www.linkedin.com/in/nikita-jha-182155229/' target='_blank'>Send a message</a>
+            <h5>jha-nikita</h5>
+            <a href='https://linkedin.com/in/jha-nikita' target='_blank'>Send a message</a>
           </article>
 
           {/* <article className="contact__option">
